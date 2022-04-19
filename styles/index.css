@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+.banner-title {
+    background-image: url("../images/pattern.jpeg");
+    height: auto;
+    width: 100%;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 100px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    align-items: center;
+    color: khaki;
+    min-width: 375px;
+}
+
+.heading-brushes {
+    font-size: 32px;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    background-color: mediumspringgreen;
+    font-weight: bold;
+    min-width: 375px;
+}
+
+.heading-frames {
+    font-size: 32px;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    background-color: lightcoral;
+    font-weight: bold;
+    min-width: 375px;
+}
+
+.heading-paint {
+    font-size: 32px;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    background-color: skyblue;
+    font-weight: bold;
+    min-width: 375px;
+}
+
+.img {
+    height: 250px;
+    width: 250px;
+}
+
+.price {
+    display: inline;
+    font-weight: bold;
+    color: blue;
+}
+
+h2,
+p {
+    min-width: 375px;
+}
