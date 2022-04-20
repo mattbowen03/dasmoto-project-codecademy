@@ -1,15 +1,24 @@
 * {
     box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+.heading-brushes,
+.heading-frames, 
+.heading-paint {
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    min-width: 375px;
 }
 
 .banner-title {
-    background-image: url("/images/pattern.jpeg");
+    background-image: url("../images/pattern.jpeg");
     height: auto;
     width: 100%;
     margin-top: 60px;
     text-align: center;
     font-size: 100px;
-    font-family: Helvetica, sans-serif;
     font-weight: bold;
     align-items: center;
     color: khaki;
@@ -17,32 +26,18 @@
 }
 
 .heading-brushes {
-    font-size: 32px;
-    font-family: Helvetica, sans-serif;
-    color: white;
     background-color: mediumspringgreen;
-    font-weight: bold;
-    min-width: 375px;
 }
 
 .heading-frames {
-    font-size: 32px;
-    font-family: Helvetica, sans-serif;
-    color: white;
     background-color: lightcoral;
-    font-weight: bold;
-    min-width: 375px;
 }
 
 .heading-paint {
-    font-size: 32px;
-    font-family: Helvetica, sans-serif;
-    color: white;
     background-color: skyblue;
-    font-weight: bold;
-    min-width: 375px;
 }
 
+/* could be in html? */
 .img {
     height: 250px;
     width: 250px;
